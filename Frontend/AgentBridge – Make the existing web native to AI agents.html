@@ -118,6 +118,10 @@ nav{transition:box-shadow .3s}nav.scrolled{box-shadow:0 8px 30px rgba(0,0,0,.12)
 #top:hover{border-color:var(--or);transform:translateY(-3px)}
 @media(prefers-reduced-motion:reduce){#sprog{display:none}}
 html{scroll-padding-top:76px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn.ghost:hover{box-shadow:0 14px 30px rgba(0,0,0,.12)}
+.dlmeta{margin-top:14px;font-size:12px;color:var(--dim);position:relative}
 /* ScrollRevealText (vanilla port — see script credit below) */
 .srt-w{display:inline-block;will-change:transform,opacity,filter,color}
 @media(prefers-reduced-motion:reduce){.srt-w{opacity:1!important;transform:none!important;filter:none!important}}
@@ -134,7 +138,8 @@ html{scroll-padding-top:76px}
 <section class="hero" id="hero"><div class="glow"></div>
 <h1 id="h1"></h1>
 <p class="sub">AgentBridge is a semantic execution layer that helps AI agents understand, operate, and optimize the existing web.</p>
-<div class="cta"><a class="btn" href="#demo">Try live demo<i>→</i></a></div>
+<div class="cta"><a class="btn" href="extension.zip" download>⤓ Add to Chrome</a><a class="btn ghost" href="#demo">Try live demo<i>→</i></a></div>
+<div class="dlmeta m">extension.zip · Load unpacked</div>
 <div class="sub2 rv"><h3>A semantic execution layer for AI agents</h3><p>Turn the human web into a machine-readable interface.</p></div>
 <div class="card insp rv"><div class="bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">🔒 mail.google.com/inbox</div><span class="tag">AI DOM ON</span></div>
 <div class="g2"><div class="li">
