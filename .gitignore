@@ -1,4 +1,4 @@
 node_modules/
 *.zip
-extension.zip
-Frontend/extension.zip
+# Allow small extension build for Vercel download button
+!Frontend/extension.zip
